@@ -23,13 +23,44 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 414px;
 
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.box-titel {
+  margin: 30px 0px;
+}
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 a {
   color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.margin {
+  margin: 9px;
 }
 
 img,
@@ -39,6 +70,32 @@ video {
   vertical-align: text-top;
 }
 
+.to-the-picture {
+  margin: 54px 9px;
+}
+
+.center {
+  text-align: center;
+  margin: 20px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 9px;
+}
+
+.architectes {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p,
+footer a {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+}
 /* ====================================
 // base rules
 // ==================================== */
