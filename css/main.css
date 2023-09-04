@@ -29,6 +29,12 @@ body {
   line-height: 1.5rem;
 }
 
+.nav-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 h1 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 30px;
@@ -76,7 +82,11 @@ video {
 
 .center {
   text-align: center;
+  font-family: "Libre Franklin", sans-serif;
   margin: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration-line: underline;
 }
 
 footer {
